@@ -1,0 +1,51 @@
+{"intents":[
+  { "tag": "saudacao",
+    "patterns":["Ola","Opa","Oi", "tudo bem"],
+    "responses": ["Oi","Olá"]
+  },
+  { "tag": "despedida",
+    "patterns":["valeu","tchau","Obrigado","tks"],
+    "responses": ["Até breve","Falou"]
+  },
+  { "tag": "objetivo",
+    "patterns":["Qual o objetivo do TCC?", "Como funciona o TCC?"],
+    "responses": ["O TCC tem como objetivo exercitar a capacidade dos estudantes em desenvolver \numa solução para uma questão que envolva recursos computacionais e que utilize os conhecimentos \nacumulados durante o curso de graduação. A solução proposta deve ter como \nbase o método científico"]
+  },
+  { "tag": "delivery",
+    "patterns":["O que é necessário entregar no TCC?", "O que precisa entregar no TCC?"],
+    "responses": ["Espera-se na entrega final do TCC uma monografia e um programa ou artefato \n desenvolvido por você"]
+  },
+  { "tag": "monography",
+    "patterns":["O que a monografia deve ter?"],
+    "responses": ["A monografia deve ter os seguintes itens:\n- Introdução e objetivos do trabalho\n- Conceituação do problema\n- Revisão da literatura, que pode incluir um benchmark de soluções de mercado\n- Desenvolvimento de arquitetura de solução, engenharia de software e demais técnicas que descrevam a solução proposta\n- Discussão dos resultados e considerações finais"]
+  },
+  { "tag": "group",
+    "patterns":["Quantas pessoas o grupo de TCC deve ter?", "Quantos integrantes deve ter?"],
+    "responses": ["Os grupos de TCC devem buscar ter 4 integrantes.\nCaso escolha ter um grupo menor que 4, a entrega ainda sim\ndeverá corresponder a um trabalho de 4 pessoas."]
+  },
+  { "tag": "advisor_work",
+    "patterns":["Qual o papel do orientador?", "O que o orientador faz?"],
+    "responses": ["Os orientadores iram aconselhar alterações ou\naperfeiçoamentos na delimitação do escopo ou da metodologia a ser empregada."]
+  },
+  { "tag": "professor_work",
+    "patterns":["Qual o papel do professor?", "O que o professor faz?"],
+    "responses": ["O professor da matéria de TCC vai ser responsável por\napresentar semanalmente tópicos relevantes sobre metodologia científica e organização do trabalho\n, acompanhar a evolução de cada grupo, auxiliando na condução das atividades\ne ser informado por eventuais desvios ou situações que merecem atenção e/ou\npossam prejudicar a evolução do trabalho ou convivência do grupo."]
+  },
+  { "tag": "assessment",
+    "patterns":["Como funciona a avaliação do TCC?", "Como é a entrega?"],
+    "responses": ["A entrega do TCC é dividido em dois semestres, no final\nde cada semestre o grupo sera avaliado por uma banca de professores\nsendo o seu orientador um deles. A banca avaliará a monografia e a solução implementada\ncom base em um conjunto de premissas de avaliação determinadas e conhecidas\ntanto pelos professores quanto pelos alunos.\nApesar de ser um trabalho em grupo a avaliação será feita individual, podendo ser reduzida ou aumentada\npela avaliação do professor/orientador. Os própios integrantes também poderão avaliar os outros integrantes."]
+  },
+  { "tag": "not_delivered",
+    "patterns":["O que acontece se eu não entregar o TCC?", "Se eu não entregar a tempo?"],
+    "responses": ["Caso o TCC não seja entregue na data estimada o grupo\nserá automaticamente reprovado, sem ter a chance de apresentar para a banca."]
+  },
+  { "tag": "reprove",
+    "patterns":["De que forma eu posso ser reprovado na matéria de TCC?", "Como eu reprovo?"],
+    "responses": ["O grupo pode ser reprovado caso o TCC não seja entregue\nno tempo estipulado. Pode acontecer também do Orientador juntamente com o Professor\nnão entregar seu trabalho para a banca, também sendo reprovado.\nE também caso a banca não aprove seu trabalho você sera reprovado."]
+  },
+  { "tag": "contact",
+    "patterns":["Como eu posso saber das atualizações da matéria?", "Onde eu me comunico com a sala e o professor?"],
+    "responses": ["A sala possui um grupo no WhatsApp que é possível saber\nsobre avisos e também participar de discussões. Para entrar basta entrar em contato\ncom o Professor para te colocar no grupo."]
+  }
+]
+}
